@@ -460,7 +460,7 @@ function showTab(tab) {
 async function loadLB() {
   const list = document.getElementById('lb-list');
   if (!DB_READY) {
-    list.innerHTML = '<div class="lb-msg">⚙️ Set up Supabase to enable the live leaderboard.<br><small style="color:#aaa">See the yellow setup banner on the My Bingo Card tab.</small></div>';
+    list.innerHTML = '<div class="lb-msg">No scores yet — be the first! 🌟</div>';
     return;
   }
   list.innerHTML = '<div class="lb-msg">Loading team scores… 🏃</div>';
